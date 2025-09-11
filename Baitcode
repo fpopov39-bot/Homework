@@ -1,0 +1,10 @@
+import dis
+
+def kubnum():
+    n = int(input("Введите натуральное число: "))
+    if n > 0:
+        print(n ** 3)
+    else:
+        print("Введите натуральное число!!!")
+
+dis.dis(kubnum)
